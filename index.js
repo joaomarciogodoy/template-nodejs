@@ -27,6 +27,6 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
-app.listen(3000, () => {
+app.listen(3001, () => {
   console.log("Servidor rodando na porta 3000");
 });
